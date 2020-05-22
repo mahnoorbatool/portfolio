@@ -1,0 +1,155 @@
+div.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    color: azure;
+    background-image: linear-gradient(to top left, #6ef195, #00e3fd);
+    background: rgb(87, 62, 55);
+    background: linear-gradient(130deg, rgba(87, 62, 55, 1) 0%, rgba(170, 131, 128, 1) 21%, rgba(13, 232, 200, 1) 40%, rgba(241, 191, 191, 1) 73%, rgba(13, 232, 200, 1) 95%);
+    background: rgb(87, 62, 55);
+    background: radial-gradient(circle, rgba(87, 62, 55, 1) 0%, rgba(170, 131, 128, 1) 21%, rgba(13, 232, 200, 1) 40%, rgba(241, 191, 191, 1) 73%, rgba(13, 232, 200, 1) 95%);
+    font-family: 'Major Mono Display'
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.button-link {
+    border: 5px solid azure;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: azure;
+    text-decoration: none;
+    transition: border-color 2500ms linear;
+}
+
+a:hover {
+    border-color: purple;
+    color: #5D0C6C;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    background-color: #A98481;
+}
+
+nav a {
+    margin: 11px 11px 11px 11px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Major Mono Display'
+}
+
+.main-page a:hover {
+    border-bottom: 9px solid white;
+    transition: border-width 400ms linear;
+}
+
+div.about {
+    /* background: rgb(194,172,47); */
+    /* background: radial-gradient(circle, rgba(194,172,47,1) 3%, rgba(218,203,223,1) 20%, rgba(171,213,165,1) 36%, rgba(157,33,58,1) 65%, rgba(102,182,171,1) 89%);  */
+    background: rgb(126, 157, 94);
+    background: radial-gradient(circle, rgba(126, 157, 94, 1) 25%, rgba(102, 182, 166, 1) 76%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: column nowrap;
+    align-items: center;
+    color: white;
+}
+
+.about p {
+    display: flex;
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.about img {
+    border-radius: 50%;
+    border-width: 50%;
+    margin-top: 2rem;
+}
+
+div.contact {
+    background: rgb(70, 156, 92);
+    background: radial-gradient(circle, rgba(70, 156, 92, 1) 30%, rgba(79, 115, 116, 1) 72%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.contact .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+.contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.logos img {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.project {
+    background: rgb(72, 178, 198);
+    background: radial-gradient(circle, rgba(72, 178, 198, 1) 0%, rgba(68, 187, 96, 1) 100%);
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: azure;
+}
+
+.project p {
+    color: azure;
+}
+
+.project p:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: purple;
+    border-bottom: 9px solid azure;
+    transition: border-width 400ms linear;
+}
+
+.project img {
+    padding: 1rem;
+}
+
+.project a {
+    text-decoration: none;
+}
